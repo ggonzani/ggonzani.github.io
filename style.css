@@ -164,7 +164,7 @@ button{
 
 .banner {
     width: 100%;
-    background-image: url(BANNER.png);
+    background-image: url(../img/BANNER.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -200,21 +200,10 @@ button{
   
     flex-direction: column;
     
-    margin: 4.5em 0;
+    margin: 1em 0;
     }
 }
 
-@media (max-width: 824px) {
-    .contenedor-banner {
-    margin: 4em 0;
-    }
-}
-
-@media (max-width: 663px) {
-    .contenedor-banner {
-    margin: 2em 0;
-    }
-}
 
 
 
@@ -364,7 +353,7 @@ button{
     justify-content: center;
     text-align: center;
     align-items: center;
-margin: -5em 0;
+margin: -5em 2em;
 
 }      
 
@@ -379,6 +368,16 @@ margin: -5em 0;
     }
   }
 
+
+  @media (max-width: 1200px) {
+    .contenedor-somos {
+
+
+  
+        margin: 1em 0;
+    }
+  }
+
  
 
 
@@ -389,12 +388,11 @@ margin: -5em 0;
     height: 12em;
     border-radius: 1.5em; 
     background-color: white;
-    margin: 2em 0;
+    margin: 2em 3em;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 2.5%;
-    margin-right: 2.55%;
+
     line-height: 1.2;      
 }   
 
@@ -502,36 +500,19 @@ margin: -5em 0;
     align-items: center;
     color: white;
     display: flex;
-    margin: 5em 0;
+    margin: 10em 0;
     line-height: 2;
 
 }
 
 
+
 @media (max-width: 1200px) {
-    .servicios-titulo {
-        margin-bottom: 5em;
-        margin-top:-4em;
+    .servicios-titulo {    
+        margin: 0 0 3em 0;
     }
 }
 
-@media (max-width: 964px) {
-    .servicios-titulo {
-        margin-top: -3.5em;
-        margin-bottom: 5em;
-
-    }
-}
-
-
-
-@media (max-width: 730px) {
-    .servicios-titulo {
-        margin-top: -3.5em;
-        margin-bottom: 5em;
-
-    }
-}
 
 
 
@@ -545,7 +526,7 @@ margin: -5em 0;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 0.5em 0;
+    margin:  0;
 }
 
 @media (max-width: 1200px) {
@@ -580,7 +561,7 @@ margin: -5em 0;
 
 .servicios-titulo p {
     width: 70%;
-    height: 4em;
+
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -787,28 +768,28 @@ margin: -5em 0;
 
 
 #laboral p{
-    background-image: url(trabajo.png);
+    background-image: url(../img/trabajo.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #sucesorio p{
-    background-image: url(sucesorio.png);
+    background-image: url(../img/sucesorio.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #familia p{
-    background-image: url(familia.png);
+    background-image: url(../img/familia.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #danos p{
-    background-image: url(mazo.png);
+    background-image: url(../img/mazo.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
@@ -1252,6 +1233,13 @@ display: none;
     }
   } 
 
+  @media (max-width: 964px) {
+    .loguito img {
+        width: 100px;
+   
+
+    }
+  } 
 
 /*Inicio de footer*/
 .copyright {
