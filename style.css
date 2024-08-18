@@ -164,7 +164,7 @@ button{
 
 .banner {
     width: 100%;
-    background-image: url(../img/BANNER.png);
+    background-image: url(BANNER.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position:center;
@@ -772,28 +772,28 @@ button{
 
 
 #laboral p{
-    background-image: url(../img/trabajo.png);
+    background-image: url(trabajo.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #sucesorio p{
-    background-image: url(../img/sucesorio.png);
+    background-image: url(sucesorio.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #familia p{
-    background-image: url(../img/familia.png);
+    background-image: url(familia.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #danos p{
-    background-image: url(../img/mazo.png);
+    background-image: url(mazo.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
