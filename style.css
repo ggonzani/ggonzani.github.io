@@ -200,7 +200,7 @@ button{
         width: 100%;
 
     
-    margin: 1em   0 1em  0;
+    margin: 0;
     }
 }
 
@@ -380,7 +380,15 @@ button{
   }
 
 
- 
+ @media (max-width: 964px) {
+    .contenedor-somos {
+
+        margin:0 ;
+        flex-direction: column;
+  
+    }
+  }
+
 
 
 
