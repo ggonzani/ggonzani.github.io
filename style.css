@@ -164,32 +164,32 @@ button{
 
 .banner {
     width: 100%;
-    background-image: url(BANNER.png);
+    background-image: url(../img/BANNER.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     color: white;
 }
 
 .contenedor-banner {
-    width: 100%;
+    width: 80%;
     display: flex;    
     flex-direction: column;
     justify-content: left;
     text-align: left;
     align-items: left;
-    margin: 8.2em 8.2em;   
+    margin: 8.2em   0 8.2em  8.2em;   
 }
 
 @media (max-width: 1200px) {
     .contenedor-banner {
-    width: 100%;
+    width: 80%;
     display: flex;    
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 6em 0;
+    margin: 6em   10% 6em  10%;
     }
 }
 
@@ -198,9 +198,9 @@ button{
 @media (max-width: 964px) {
     .contenedor-banner {
   
-    flex-direction: column;
+
     
-    margin: 1em 0;
+    margin: 4em   10% 4em  10%;
     }
 }
 
@@ -326,6 +326,17 @@ button{
 
 
 /*Inicio de servicios, somos, circulo, icon*/
+.somos-nosotros{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
 .nosotros {
     width: 100%;
     background-color: rgb(56, 134, 132);
@@ -353,7 +364,7 @@ button{
     justify-content: center;
     text-align: center;
     align-items: center;
-margin: -5em 2em;
+    margin-top: -4em;
 
 }      
 
@@ -362,21 +373,12 @@ margin: -5em 2em;
 @media (max-width: 1200px) {
     .contenedor-somos {
 
-
+        margin-top: -2.5em;
         flex-direction: column;
-        margin: 3.5em 0;
-    }
-  }
-
-
-  @media (max-width: 1200px) {
-    .contenedor-somos {
-
-
   
-        margin: 1em 0;
     }
   }
+
 
  
 
@@ -494,13 +496,14 @@ margin: -5em 2em;
 
 .servicios-titulo {
     width: 100%;
+
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     color: white;
     display: flex;
-    margin: 10em 0;
+    margin: 2em 0 4em;
     line-height: 2;
 
 }
@@ -509,7 +512,7 @@ margin: -5em 2em;
 
 @media (max-width: 1200px) {
     .servicios-titulo {    
-        margin: 0 0 3em 0;
+        margin: 2em 0 4em;
     }
 }
 
@@ -526,7 +529,8 @@ margin: -5em 2em;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin:  0;
+    
+
 }
 
 @media (max-width: 1200px) {
@@ -768,28 +772,28 @@ margin: -5em 2em;
 
 
 #laboral p{
-    background-image: url(trabajo.png);
+    background-image: url(../img/trabajo.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #sucesorio p{
-    background-image: url(sucesorio.png);
+    background-image: url(../img/sucesorio.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #familia p{
-    background-image: url(familia.png);
+    background-image: url(../img/familia.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #danos p{
-    background-image: url(mazo.png);
+    background-image: url(../img/mazo.png);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
@@ -798,15 +802,17 @@ margin: -5em 2em;
 /*Inicio de contacto, formulario, boton*/
 .contacto {
     width: 100%;
-    height: 1000px;
+    height: 900px;
     background-color: rgb(56, 134, 132);
-    padding: 6em 0;
-}
+    padding:  0;
+    margin: 4em 0;
+ 
+ }
 
 @media (max-width: 1200px) {
     .contacto {
         height: 800px;
-        padding: 4em 0;
+        
     }
 }
 
@@ -814,7 +820,7 @@ margin: -5em 2em;
 
     .contacto {
         height: 600px;
-        padding: 2em 0;
+        
     }
 }
 
@@ -1032,7 +1038,7 @@ margin: -5em 2em;
 @media (max-width: 510px) {
 
     .campo-form-msj {
-        
+        resize: none;
         height: 90px;
 }
    
@@ -1104,7 +1110,6 @@ margin: -5em 2em;
 
 
 
-
 /*Inicio de redes*/
 
 .contenedor-redes {
@@ -1126,7 +1131,13 @@ margin: -5em 2em;
         }
         }
 
-
+        @media (max-width: 964px) {
+            .contenedor-redes {
+    
+        height: 120px ;
+       
+            }
+            }
 
 
 .contenedor-img-redes{
@@ -1261,4 +1272,5 @@ display: none;
         }
        
     }   
+
 
